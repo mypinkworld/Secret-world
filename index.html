@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Adventure Time</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Silkscreen&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="Firstpage">
+    <h1>Välkomen till en ny värld</h1>
+    <p>Välj ditt Öde </p>
+    </div>
+    <div class="container">
+            <button id="startButton">Öppna</button>
+            </div>
+
+
+            <div id="surprise" class="hidden">
+                <p>Du har fått två val, men du har ingen aning vad det är du väljer på förrän du öppnat kuvertet...</p>
+                <button id="envelope1">1</button>
+                <button id="envelope2">2</button>
+    </div>
+
+            <div id="envelope1Result" class="hidden">
+                <p>Det lilla ger dig två lila godisar som får dig att känna dig avslappnad och varm inuti</p>
+                <button class="restartButton"> 
+                    <span class="material-symbols-outlined">
+                        sentiment_very_satisfied
+                    </span>
+                </button>
+            </div>
+
+            <div id="envelope2Result" class="hidden">
+                <p>Det blåa ger dig en blå drink som får din kropp att bli blå och du bleknar bort</p>
+                <button class="restartButton">
+                    <span class="material-symbols-outlined">
+                        mood_bad
+                    </span>
+                </button>
+            </div>
+        
+</body>
+</html>
