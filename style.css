@@ -19,7 +19,7 @@ header {
     .hidden {
         display: none;
     }
-    
+
     .Firstpage h1, p {
       text-align: center;    
     }
@@ -32,8 +32,8 @@ header {
         cursor: pointer;
         border: none;
         border-radius: 10px ;
-        background-color: beige;
-        color: burlywood;
+        background-color: rgba(255, 206, 214, 0.623);
+        color: rgb(0, 0, 0);
         outline: thick ridge rgb(249, 164, 178);
         text-shadow: 1px 3px 6px;
         
@@ -41,15 +41,13 @@ header {
     
     #envelope1 {
         background-color: #4CAF50; /* envelope1 so no text green */
-        color: white; /* White text for beter seeing the color  */
+        color: rgb(0, 0, 0); /* White text for beter seeing the color  */
         border-top: 10px solid #276729; /* Darker green border for contrast */
-        padding: 30px 50px;
+        padding: 20px 30px;
         border-radius: 5px;
-        font-size: 26px;
+        font-size: 11px;
         cursor: pointer;
         outline: thick ridge rgb(0, 98, 10);
-        width: 0;
-        height: 0;
         border-left: 10px solid rgb(0, 61, 0);
         border-right: 10px solid rgb(14, 45, 14);
         border-bottom: 10px solid rgb(8, 18, 7);
@@ -61,15 +59,13 @@ header {
     
     #envelope2 {
         background-color: rgb(218, 31, 31); /* envelope2 the button */
-        color: white; /* White text for beter seeing the text */
+        color: rgb(4, 0, 0); /* White text for beter seeing the text */
         border-top: 10px solid darkred; /* Darker color border for contrast */
-        padding: 30px 50px;
+        padding: 20px 30px;
         border-radius: 5px;
-        font-size: 26px;
+        font-size: 11px;
         cursor: pointer;
         outline: thick ridge rgb(107, 0, 18);
-        width: 0;
-        height: 0;
         border-left: 10px solid rgb(92, 5, 5);
         border-right: 10px solid rgb(69, 21, 21);
         border-bottom: 10px solid rgb(43, 11, 11);
@@ -81,9 +77,9 @@ header {
     }
     
     #envelope1Result {
-        background-color: firebrick; /* envelope1 the button */
+        background-color: rgb(9, 131, 31); /* envelope1 the button */
         color: white; /* White text for beter visibility */
-        border: 2px solid orange; /* the contrast */
+        border: 2px solid rgb(26, 89, 1); /* the contrast */
         padding: 20px 30px;
         margin-left: 10px;
         margin-right: 10px;
@@ -96,10 +92,10 @@ header {
     #envelope1Result button {
         padding-top: 20px;
         padding-bottom: 20px;
-        background-color: rgb(255, 140, 0);
-        color: yellow;
+        background-color: rgb(51, 164, 16);
+        color: rgb(2, 75, 6);
         box-shadow: 6px 3px 6px 3px;
-        outline: thick ridge rgba(244, 249, 0, 0.944);
+        outline: thick ridge rgba(11, 97, 2, 0.944);
 
     }
     #envelope1Result button:hover {
@@ -107,28 +103,28 @@ header {
         }
     
     #envelope2Result {
-        background-color: rgb(238, 189, 238); /* envelope1 so no text green */
+        background-color: rgb(238, 189, 189); /* envelope1 so no text green */
         color: white; /* White text for beter visibility */
-        border: 3px solid rgba(97, 0, 97, 0.716); /* Darker green border for contrast */
+        border: 3px solid rgba(97, 0, 0, 0.716); /* Darker green border for contrast */
         padding: 20px 30px;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 15px;
         border-radius: 5px;
-        font-size: 26px;
+        font-size: 20px;
         cursor: pointer;
     }
     
     #envelope2Result button {
-        background-color: rgb(95, 0, 95);
+        background-color: rgb(95, 0, 0);
         padding-top: 20px;
         padding-bottom: 20px;
-        color: rgb(248, 0, 252);
+        color: rgb(252, 0, 0);
         box-shadow: 6px 3px 6px 3px;
-        outline: thick ridge rgb(255, 100, 219);
+        outline: thick ridge rgb(255, 100, 100);
     }
     
     #envelope2Result button:hover {
-        background-color: pink;
+        background-color: rgb(246, 110, 110);
     }
     
