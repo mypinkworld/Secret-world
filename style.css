@@ -3,7 +3,9 @@ body {
 }
 header {
     font-family: 'Silkscreen', sans-serif;
-    margin: 10%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 15px;
     background-color: rgba(233, 150, 122, 0.636);
     border: 10px solid rgba(233, 150, 122, 0.817);

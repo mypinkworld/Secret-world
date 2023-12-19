@@ -11,5 +11,5 @@ Ditt mål är att navigera genom de mystiska valen och upptäcka olika möjlighe
 2. Där efter gör dina val - På varje sida ges du två val, representerade av färgade lådor. Varje kuvert döljer en överraskning som kan ta dig ett steg närmare ditt mål eller avsluta ditt spel.
 3. Upptäck konsekvenserna eller belöningarna genom dina val exempelvis få godis som gör dig avslappnad, eller en dryck som förändrar eller tar bort din existens.
 
-4. Demo
+4. Demo: https://mypinkworld.github.io/Secret-world/
    
